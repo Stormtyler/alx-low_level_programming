@@ -1,15 +1,21 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * print_alphabet -> print lowercase alphabet
+ * main - print if positive, negative or zero
+ *
+ * Return: 0
  */
 
-void print_alphabet(void)
+int main(void)
 {
-	int j;
+	char c;
 
-	for (j = 'a'; j <= 'z'; j++)
-	{
-		_putchar(j)
-	}
-	_putchar('\n');
+	c = 'a';
+	while
+		(c <= 'z')
+		{
+			putchar(c);
+			c++;
+		}
+	putchar('\n');
+	return (0);
 }
