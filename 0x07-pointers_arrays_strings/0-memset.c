@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _memset - a function that fills memory with a constant byte
  * @s: input pointer to char type represents the pointer to the block of memory to fill
@@ -9,13 +10,10 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i = 0;
+	unsigned int a;
 
-	while (n > 0)
-	{
-		s[i] = b;
-		i++;
-		n--;
-	}
-	return (s);
+	for (a = 0; a < n; a++)
+		s[a] = b;
+
+	return (s)
 }
